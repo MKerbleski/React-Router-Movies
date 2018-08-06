@@ -22,7 +22,7 @@ export default class App extends Component {
   };
 
   render() {
-    console.log(this.addToSavedList)
+    // console.log(this.addToSavedList)
     return (
       <div>
         <SavedList list={this.state.savedList}  />
